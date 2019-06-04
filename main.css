@@ -1,0 +1,405 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+    color: #868f9b;
+}
+
+.fixed-top{
+	transition:0.2s all linear;
+}
+
+.fixed-top.change-fixed-top{
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+	background-color:#FD8A10 !important;
+	/*transition:max-width 2s;
+	transition: margin-top 2s;*/
+	transition:background-color 2s;
+}
+
+.navbar{
+    border-bottom: #FD8A10 0px solid;
+}
+
+.navbar .navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    transition: color .5s ease;
+}
+
+.navbar .navbar-brand:hover{
+    color: #FD8A10;
+}
+
+.bg-dark{
+    background-color: rgba(0,0,0, 0) !important;
+}
+
+.nav-item .nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+	font-weight: 400;
+	padding: 12px 10px;
+	letter-spacing: 1px;
+	color: white !important;
+    text-transform: uppercase;
+    transition: color .5s ease;
+}
+
+.nav-item .nav-link:hover{
+    color: #FD8A10 !important;
+}
+
+#headerSection h1{
+    font-family: 'Oswald', sans-serif;
+    color: white !important;
+    font-size: 72px;
+}
+
+#headerSection{
+    background: url('bg.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+#headerSection .overlay, #formSection .overlay{
+    background-color: rgba(0,0,0, .9);
+}
+
+#headerSection .row, #formSection .row{
+    height: 100vh;
+}
+
+.main-button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FD8A10;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 35px;
+    border: 2px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    transition: .2s all;
+}
+
+.main-button:hover{
+    opacity: .8;
+}
+
+
+/*-----HIZMETLERIMIZ-----*/
+
+#services{
+	padding:120px 0px;
+}
+
+.services-top h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size:40px;
+	font-weight:700;
+    color: #000;
+}
+
+.services-top p{
+	font-family: 'Droid Serif', serif;
+	font-size:16px;
+	font-style:italic;
+	color:#777;
+	margin-bottom:70px;
+}
+
+.item-circle{
+	border:3px solid #FD8A10;
+	width:100px;
+	height:100px;
+	margin:0 auto;
+	border-radius:200px;
+}
+
+.services-content i{
+	color:#FD8A10;
+	line-height:100px;
+}
+
+.services-content h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size:18px;
+	font-weight:700;
+	color:#222;
+	margin-top:24px;
+}
+
+.services-content p{
+	font-family: 'Roboto Slab', serif;
+	font-size:14px;
+	color:#777;
+}
+
+/*-------SLOGAN EKRANI-------*/
+
+
+#slogan {
+    background: linear-gradient( rgba(20, 20 ,20 , .9), rgba(20, 20 ,20 , .9)),
+    url("sloganBG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#slogan h4 {
+    color: #fff;
+}
+
+/* PORTFOLIO SECTION*/
+
+#portfolio .col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#portfolio h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#portfolio .fas{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#portfolio p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.imageContainer{
+    position: relative;
+    cursor: pointer;
+}
+
+.imageOverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #FD8A10;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.imageContainer:hover .imageOverlay{
+    opacity: .7;
+}
+
+.imageText{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*ANLASMALI SIRKETLER*/
+
+#anlasmali{
+	padding:60px 0;
+    margin-top: 120px;
+}
+
+
+/*-------HAKKIMIZDA EKRANI-------*/
+
+#hakkimizda{
+    padding: 120px 0;
+}
+
+#hakkimizda h2{
+    border-left: 6px solid #FD8A10;
+    padding-left: 30px;
+    color: #FD8A10;
+}
+
+#hakkimizda .col-md-6{
+    display: inline;
+}
+
+#hakkimizda .btn{
+    position: absolute;
+    bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color: #FD8A10;
+    display: inline-block;
+    padding: 10px 35px;
+    border: 1px solid #FD8A10;
+    border-radius: 0;
+    cursor: pointer;
+    transition: .2s all;
+}
+
+#hakkimizda .btn:hover{
+    background-color: #FD8A10;
+    color: #fff;
+}
+
+#hakkimizda p{
+    line-height: 28px;
+}
+
+/*-------BIZE ULASIN EKRANI-------*/
+
+#bizeUlasin{
+	background: url("bizeUlasin.jpg") no-repeat center center fixed;
+	background-size: cover;
+	padding:120px 0px;
+}
+
+.bizeUlasin-top h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size:40px;
+	font-weight:700;
+	color:#ffffff;
+}
+
+.bizeUlasin-top p{
+	font-family: 'Droid Serif', serif;
+	font-size:16px;
+	font-style:italic;
+	color:#777;
+	margin-bottom:70px;
+}
+
+#name, #email, #subject{
+	width:90%;
+	height:50px;
+	margin-bottom:26px;
+	border-style:none;
+	border-radius:3px;
+	padding-left:20px;
+	margin-left:5%;
+}
+
+textarea{
+	width:90%;
+	height:203px;
+	border-style:none;
+	border-radius:3px;
+	padding-left:20px;
+	padding-top:15px;
+	margin-left:5%;
+}
+
+.golden-form-element{
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	font-weight:700;
+}
+
+#bizeUlasin .btn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FD8A10;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 35px;
+    border: 2px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    transition: .2s all;
+}
+
+#bizeUlasin .btn:hover{
+    opacity: .9;
+}
+
+
+/*FOOTER EKRANI*/
+
+footer {
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #2a2a2a;
+}
+
+.footer-icons {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.footer-icons li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 15px
+}
+
+.footer-icons i {
+	color: #FD8A10;
+}
+
+.footer-icons li a {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.footer-copyrights p{
+	text-align: center;
+	font-size: 14px;
+	margin: 0;
+	text-transform: uppercase;
+
+}
+
+
+/*-------UYE GIRIS EKRANI-------*/
+
+#formSection h1{
+    font-family: 'Oswald', sans-serif;
+    color: white !important;
+    font-size: 72px;
+    margin-bottom: 80px;
+    /*padding-bottom: 7px;
+    border-bottom: 1px solid #FD8A10;*/
+}
+
+#formSection .input-group-text{
+    width: 50px;
+    border-radius: 0;
+    color: #fff;
+    background-color: #FD8A10;
+}
+
+#formSection .fas{
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+#formSection form .btn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FD8A10;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    transition: .2s all;
+}
+
+#formSection form .btn:hover{
+    opacity: .8;
+}
+
+#formSection form .form-group{
+    width: 600px !important;
+}

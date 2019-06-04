@@ -1,0 +1,190 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+    color: #868f9b;
+}
+
+/*-----Yan Menu-----*/
+
+
+.kalip{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: stretch;
+}
+
+#yanMenu{
+    min-width: 250px;
+    max-width: 250px;
+    background-color: rgba(0,0,0, .8);
+    color: #fff;
+    transition: all .3s;
+    height: 100vh;
+}
+
+#yanMenu.active{
+    margin-left: -250px;
+}
+
+.navbar-brand{
+    width: 100%;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    transition: color .5s ease;
+    /*background-color: #FD8A10;*/
+    border-bottom: 1px solid #FD8A10; /*TASARIMINA KARAR VER YENİDEN BAK!!!!!!!!!!!!!!!!!!!!!1*/
+}
+
+.navbar .navbar-brand:hover{
+    color: #FD8A10;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-nav{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.navbar-nav .nav-item{
+    text-align: right;
+    border-bottom: 0px solid #FD8A10;
+}
+
+.navbar-nav .nav-item a{
+    color: #fff;
+    padding-right: 15px;
+}
+
+.navbar-nav .nav-item a:hover{
+    background-color: #FD8A10;
+    transition: .5s;
+}
+
+/*İçerik*/
+
+#content{
+    width: 100%;
+}
+
+#content .container-fluid{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 2px;
+}
+
+#content .container-fluid .btn{
+    position: fixed;
+    z-index: 5;
+    border-radius: 0;
+    background-color: rgba(0,0,0,.8);
+    color: #fff;
+}
+
+#content .container-fluid .btn:hover{
+    color: #FD8A10;
+}
+
+/*İçerik Yeni Kullanici*/
+
+#content .container{
+    width: 100%;
+}
+
+#content #yeniKul{
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+
+#content #yeniKul .btn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FD8A10;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 35px;
+    border: 2px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    transition: .2s all;
+    margin-left: 66%;
+}
+
+#content #yeniKul .btn:hover{
+    opacity: .9;
+    border-radius: 5px;
+}
+
+/*İçerik Rapor ve Analiz*/
+
+#content #grafik1, #grafik2, #grafik3, #grafik4{
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#content #rAbtn, #content #rAbtn2{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FD8A10;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 35px;
+    border: 2px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    transition: .2s all;
+}
+
+#content .form-inline{
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+
+/*İçerik Gelir Gider*/
+
+#content #grafikA, #grafikB{
+    width: 450px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+
+/*İçerik Ayarlar*/
+
+#content .guncelle{
+    width: 400px;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+
+#content .guncelle .btn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FD8A10;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 35px;
+    border: 2px solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    transition: .2s all;
+    margin-left: 66%;
+}
+
+#content .guncelle .btn:hover{
+    opacity: .9;
+    border-radius: 5px;
+}
